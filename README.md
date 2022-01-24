@@ -1,4 +1,4 @@
-![changed](https://badges.pufler.dev/updated/zoey-on-github/dumb-personal-bot) ![created](https://badges.pufler.dev/created/zoey-on-github/dumb-personal-bot)  
+[![changed](https://badges.pufler.dev/updated/zoey-on-github/dumb-personal-bot)](https://badges.pufler.dev) [![created](https://badges.pufler.dev/created/zoey-on-github/dumb-personal-bot)](https://badges.pufler.dev)  
 # dumb-personal-bot  
 (aka zoey doesn't know how git works: the repo)  
 a neat little bot for my personal discord server, if you, for whatever reason, want to use this on your own server, be my guest. 

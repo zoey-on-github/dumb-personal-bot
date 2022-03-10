@@ -12,8 +12,6 @@ module.exports = {
   data: new SlashCommandBuilder()
        .setName('Modtest')
        .setDescription('Basic check to see if someone is a mod or not'),
-       //TODO: finish this with roles once I get home.
-
        async execute(interaction) {
        if (({ permissions })= true) {
            await interaction.reply("you are a mod! :D");

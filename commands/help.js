@@ -5,7 +5,7 @@ module.exports = {
     .setName('help')
     .setDescription('Explains commands!'),
     //TODO:finish this json
-    async execute(interaction) {
+        async execute(interaction) {
         await interaction.reply(`Help: replies with help\n Userinfo: gives user info\n Serverinfo:Replies with server user count and more info\n `);
     }
 }

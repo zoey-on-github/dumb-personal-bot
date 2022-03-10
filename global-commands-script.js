@@ -1,3 +1,4 @@
+//essentially the same thing as the deploy-commands script, except for global commands, although you should be warned that global comamnds take a few hours to fully register unlike guild commands, so if you wanna test guild commands, make some tea or read a book or something. or just continue coding, idk im a comment, not a cop.
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { token } = require('./config.json');

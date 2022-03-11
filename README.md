@@ -1,6 +1,4 @@
-[![Visits Badge](https://badges.pufler.dev/visits/zoey-on-github/dumb-personal-bot)](https://badges.pufler.dev)
-
-[![created](https://badges.pufler.dev/created/zoey-on-github/dumb-personal-bot)](https://badges.pufler.dev)  
+[![Updated Badge](https://badges.pufler.dev/updated/zoey-on-github/dumb-personal-bot)](https://badges.pufler.dev) [![created](https://badges.pufler.dev/created/zoey-on-github/dumb-personal-bot)](https://badges.pufler.dev)  
 
 # dumb-personal-bot  
 

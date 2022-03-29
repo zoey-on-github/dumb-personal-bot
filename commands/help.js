@@ -11,7 +11,8 @@ const exampleEmbed = new MessageEmbed()
         { name: "Modtest", value: "checks if you are a mod" },
         { name: "Serverinfo", value: "Gives you info about the server"},
         { name: "Ping", value:"Responds with pong!"},
-        { name: "userinfo", value: "Responds with user info!"}
+        { name: "userinfo", value: "Responds with user info!"},
+        { name: "francis-command", value:"francis made this."}
     )
 module.exports = {
     data: new SlashCommandBuilder()

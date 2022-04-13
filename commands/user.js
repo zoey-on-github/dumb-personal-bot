@@ -13,7 +13,7 @@ module.exports = {
         .setDescription("Gives user info!")
         .setTimestamp()
         .addFields(
-            { name: "Your id", value: `${interaction.user.id}`},
+            {name: "Your id", value: `${interaction.user.id}`},
             {name: "Your username", value: `${interaction.user.username}`},
             {name: "Your tag", value: `${interaction.user.tag}`},
             {name: "User created at date", value: `${interaction.user.createdAt}`}

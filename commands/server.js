@@ -5,6 +5,16 @@ module.exports = {
     .setName('server')
     .setDescription('Replies with server info!'),
   async execute(interaction) {
-    await interaction.reply(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`);
+    const helpEmbed = new MessageEmbed()
+    .setColor("#0099ff")
+    .setTitle("Userinfo")
+    .setDescription("Gives user info!")
+    .setTimestamp()
+    .addFields(
+      {name: "Server name", value: `${interaction.guild.name}`},
+      {name : "Total members", value: `${interaction.guild.memberCount}`},
+      {name: "Server creation", value: `${interaction.guild.createdAt}`}
+    )
+    await interaction.reply({embeds: [helpEmbed]});
   },
 };

@@ -1,4 +1,4 @@
-const { SlashCommandBuilder} = require('@discordjs/builders');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 const fetch = require('node-fetch');
 module.exports = {
 	data:new SlashCommandBuilder()
@@ -6,7 +6,6 @@ module.exports = {
 		.setDescription("gives random octocat wisdom"),
 	async execute(interaction) {
 		const response = await fetch("https://api.github.com/octocat") 
-		const body = await response.text()
-		await interaction.reply(body)
+		const { file } = await response.text().then(JSON.stringify(response)).then(response => response.json())
+		await interaction.reply({files: [file]})}
 	}
-}

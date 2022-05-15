@@ -1,4 +1,4 @@
-const { SlashCommandBuilder} = require('@discordjs/builders');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 const fetch = require('node-fetch');
 module.exports = {
 	data:new SlashCommandBuilder()
@@ -8,5 +8,4 @@ module.exports = {
 		const response = await fetch("https://api.github.com/zen") 
 		const body = await response.text()
 		await interaction.reply(body)
-	}
-}
+	} }

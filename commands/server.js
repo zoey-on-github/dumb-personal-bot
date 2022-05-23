@@ -5,7 +5,7 @@ module.exports = {
     .setName('server')
     .setDescription('Replies with server info!'),
   async execute(interaction) {
-    const helpEmbed = new MessageEmbed()
+    const ServerEmbed = new MessageEmbed()
     .setColor("#0099ff")
     .setTitle("Userinfo")
     .setDescription("Gives user info!")
@@ -15,6 +15,6 @@ module.exports = {
       {name : "Total members", value: `${interaction.guild.memberCount}`},
       {name: "Server creation", value: `${interaction.guild.createdAt}`}
     )
-    await interaction.reply({embeds: [helpEmbed]});
+    await interaction.reply({embeds: [ServerEmbed]});
   },
 };

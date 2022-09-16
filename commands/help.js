@@ -1,7 +1,8 @@
-const { SlashCommandBuilder } = require('@discordjs/builders');
-const { MessageEmbed } = require('discord.js');
 
-const exampleEmbed = new MessageEmbed()
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { EmbedBuilder } = require('discord.js');
+
+const exampleEmbed = new EmbedBuilder()
     .setColor('#0099ff')
     .setTitle("Help")
     .setDescription("Explains server commands")

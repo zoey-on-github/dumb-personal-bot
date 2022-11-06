@@ -1,11 +1,12 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('server')
     .setDescription('Replies with server info!'),
   async execute(interaction) {
-    const ServerEmbed = new MessageEmbed()
+    const ServerEmbed = new EmbedBuilder()
     .setColor("#0099ff")
     .setTitle("Userinfo")
     .setDescription("Gives user info!")

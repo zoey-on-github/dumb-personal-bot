@@ -5,7 +5,7 @@ module.exports = {
 		.setName('zen')
 		.setDescription("gives random github wisdom, minus the octocat"),
 	async execute(interaction) {
-		const response = await request("https://api.github.com/zen") 
-		const body = await response.text()
-		await interaction.reply(body)
+		const zen = await request("https://api.github.com/zen") 
+		const { text } = await zen.body.text();
+		await interaction.reply(text);
 	} }

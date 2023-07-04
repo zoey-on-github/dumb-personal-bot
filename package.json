@@ -25,6 +25,7 @@
     "discord-api-types": "^0.26.1",
     "discord.js": "^14.2.0",
     "dotenv": "^16.0.0",
+    "google-images": "^2.1.0",
     "node-fetch": "^3.2.10",
     "undici": "^5.12.0"
   }

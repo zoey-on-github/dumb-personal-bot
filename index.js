@@ -24,7 +24,8 @@ for (const file of commandFiles) {
 }
 // When the client is ready, run this code (only once)
 client.once(Events.ClientReady, c  => {
-	console.log(`Ready!, logged in as ${c.user.tag}`);
+	console.log(`Ready!, logged in as ${c.user.tag} uwu`);
+	client.user.setActivity('Waiting for commands');
 });
 
 client.on('interactionCreate', async interaction => {
@@ -49,3 +50,5 @@ client.on('interactionCreate', async interaction => {
 
 // Login to Discord with your client's token
 client.login(token);
+
+
